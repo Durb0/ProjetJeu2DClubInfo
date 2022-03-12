@@ -1,0 +1,125 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://ExampleRadial/icons/flip.png" type="Texture" id=1]
+[ext_resource path="res://ExampleRadial/icons/volume.png" type="Texture" id=2]
+[ext_resource path="res://ExampleRadial/ExampleScene.gd" type="Script" id=3]
+[ext_resource path="res://addons/radial_menu/RadialMenu.gd" type="Script" id=4]
+
+[node name="ExampleScene" type="MarginContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 40
+custom_constants/margin_top = 40
+custom_constants/margin_left = 40
+custom_constants/margin_bottom = 40
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RadialMenu" type="Container" parent="."]
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 902.0
+margin_bottom = 432.0
+script = ExtResource( 4 )
+bevel_width = 0.167
+bevel_enabled = true
+modulate_enabled = true
+modulate_default = Color( 0.780392, 0.780392, 0.780392, 1 )
+
+[node name="FlipButton" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 292.085
+margin_top = 299.087
+margin_right = 328.085
+margin_bottom = 329.087
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18, 15 )
+focus_mode = 0
+icon = ExtResource( 1 )
+flat = true
+
+[node name="FlipButton2" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 413.0
+margin_top = 348.0
+margin_right = 449.0
+margin_bottom = 378.0
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18, 15 )
+focus_mode = 0
+icon = ExtResource( 1 )
+flat = true
+
+[node name="FlipButton3" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 533.915
+margin_top = 299.087
+margin_right = 569.915
+margin_bottom = 329.087
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18, 15 )
+focus_mode = 0
+icon = ExtResource( 1 )
+flat = true
+
+[node name="FlipButton4" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 584.0
+margin_top = 181.0
+margin_right = 620.001
+margin_bottom = 211.0
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18.0005, 15 )
+focus_mode = 0
+icon = ExtResource( 1 )
+flat = true
+
+[node name="VolumeButton" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 533.887
+margin_top = 61.9414
+margin_right = 570.887
+margin_bottom = 92.9418
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18.5, 15.5002 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="VolumeButton2" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 412.5
+margin_top = 12.8333
+margin_right = 449.5
+margin_bottom = 43.8333
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18.5, 15.5 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="VolumeButton3" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 291.113
+margin_top = 61.9414
+margin_right = 328.113
+margin_bottom = 92.9418
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18.5, 15.5002 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true
+
+[node name="VolumeButton4" type="Button" parent="RadialMenu"]
+modulate = Color( 0.780392, 0.780392, 0.780392, 1 )
+margin_left = 240.833
+margin_top = 180.5
+margin_right = 277.833
+margin_bottom = 211.5
+rect_scale = Vector2( 2, 2 )
+rect_pivot_offset = Vector2( 18.5, 15.5 )
+focus_mode = 0
+icon = ExtResource( 2 )
+flat = true

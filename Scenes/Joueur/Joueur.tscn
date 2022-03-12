@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Assets/shade/light.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Joueur/Joueur.gd" type="Script" id=2]
+[ext_resource path="res://Assets/Sprites/ball/ball.png" type="Texture" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 32.0
+
+[node name="Joueur" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 2.86102e-06, 2.86102e-06 )
+scale = Vector2( 0.2397, 0.2397 )
+texture = ExtResource( 3 )
+
+[node name="HitBox" type="Area2D" parent="."]
+
+[node name="Collision" type="CollisionShape2D" parent="HitBox"]
+shape = SubResource( 1 )
+
+[node name="Light2D" type="Light2D" parent="."]
+texture = ExtResource( 1 )
+texture_scale = 5.54
+energy = 0.6
+shadow_enabled = true
+
+[connection signal="body_entered" from="HitBox" to="." method="_on_HitBox_body_entered"]
