@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Arvo Pärt - Fratres.ogg-614601829c9d30dd20aeb46329119852.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Arvo Pärt - Fratres.ogg"
+dest_files=[ "res://.import/Arvo Pärt - Fratres.ogg-614601829c9d30dd20aeb46329119852.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pianog.ogg-b8a1f81a949d17c975ddde52ac720fbe.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/pianog.ogg"
+dest_files=[ "res://.import/pianog.ogg-b8a1f81a949d17c975ddde52ac720fbe.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

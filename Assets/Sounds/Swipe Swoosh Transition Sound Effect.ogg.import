@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Swipe Swoosh Transition Sound Effect.ogg-dc4635c20e0cd0cb6132354b86cbccc8.oggstr"
+
+[deps]
+
+source_file="res://Assets/Sounds/Swipe Swoosh Transition Sound Effect.ogg"
+dest_files=[ "res://.import/Swipe Swoosh Transition Sound Effect.ogg-dc4635c20e0cd0cb6132354b86cbccc8.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

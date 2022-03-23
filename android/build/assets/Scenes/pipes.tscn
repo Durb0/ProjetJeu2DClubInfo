@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Pipe.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/pipes.gd" type="Script" id=2]
+
+[sub_resource type="SegmentShape2D" id=1]
+a = Vector2( 0, -96 )
+b = Vector2( 0, 96 )
+
+[node name="StaticBody2D" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="PipeUp" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, -255 )
+rotation = -3.14159
+
+[node name="PipeDown" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 255 )
+
+[node name="LineShape" type="StaticBody2D" parent="." groups=["Line"]]
+
+[node name="LineCollision" type="CollisionShape2D" parent="LineShape"]
+position = Vector2( 384, 0 )
+shape = SubResource( 1 )

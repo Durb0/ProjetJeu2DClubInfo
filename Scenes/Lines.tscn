@@ -1,0 +1,34 @@
+[gd_scene format=2]
+
+[node name="Lines" type="Node2D"]
+position = Vector2( 0, -1 )
+
+[node name="up" type="Line2D" parent="."]
+position = Vector2( 0, 176 )
+points = PoolVector2Array( 0, 0, 896, 0 )
+width = 1.0
+default_color = Color( 0.392157, 0.392157, 0.392157, 1 )
+
+[node name="midup" type="Line2D" parent="."]
+position = Vector2( 0, 200 )
+points = PoolVector2Array( 0, 0, 896, 0 )
+width = 1.0
+default_color = Color( 0.392157, 0.392157, 0.392157, 1 )
+
+[node name="mid" type="Line2D" parent="."]
+position = Vector2( 0, 224 )
+points = PoolVector2Array( 0, 0, 896, 0 )
+width = 1.0
+default_color = Color( 0.392157, 0.392157, 0.392157, 1 )
+
+[node name="middown" type="Line2D" parent="."]
+position = Vector2( -1, 248 )
+points = PoolVector2Array( 0, 0, 896, 0 )
+width = 1.0
+default_color = Color( 0.392157, 0.392157, 0.392157, 1 )
+
+[node name="down" type="Line2D" parent="."]
+position = Vector2( 0, 272 )
+points = PoolVector2Array( 0, 0, 896, 0 )
+width = 1.0
+default_color = Color( 0.392157, 0.392157, 0.392157, 1 )
